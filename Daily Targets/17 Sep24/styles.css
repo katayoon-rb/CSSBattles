@@ -1,0 +1,40 @@
+body { margin: 0; }
+  .wrap {
+    background-color: #9CCCDB;
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .main {  
+      width: 120px;
+      height: 120px;
+      background: transparent;
+      border: 40px solid #FEFAE0;
+    }
+    .recs {
+      width: 120px;
+      height: 120px;
+      background: #9CCCDB;
+
+      transform: translate(-50%, -50%);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+      .rec {
+        width: 60px;
+        height: 50px;
+        background: #9CCCDB;
+        position: absolute;
+      }
+        .rec-top {
+          top: -40px;
+          right: 0;
+        }
+        .rec-bottom {
+          bottom: -40px;
+          left: 0;
+        }

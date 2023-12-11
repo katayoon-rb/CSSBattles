@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-color: grey;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+.wrap {
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+}
+.hor, .ver {
+  background: black;
+  position: absolute;
+}
+.hor {
+  width: 400px;
+  height: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ver {
+  width: 60px;
+  height: 150px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}

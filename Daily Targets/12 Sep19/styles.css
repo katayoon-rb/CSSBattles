@@ -1,0 +1,19 @@
+body {
+  background: #ED6A9D;
+  display: flex;
+  justify-content: center;
+
+  transform: translateY(-55.65%);
+  position: relative;
+  top: 50vh;
+}
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .right, .center, .left { background: #050044; }
+  .right, .left { width: 100px; height: 150px; }
+    .right { border-radius: 50px 25px 25px 50px; }
+    .center { width: 20px; height: 20px; }
+    .left { border-radius: 25px 50px 50px 25px; }

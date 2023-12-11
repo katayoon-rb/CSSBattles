@@ -1,0 +1,29 @@
+* { margin: 0; }
+body {
+  width: 400px;
+  height: 400px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  .bg {
+    background: linear-gradient(0.25turn, #802471 25%, #4F0843 75%);
+    width: 400px;
+    height: 400px;
+  }
+  .top, .bottom {
+    width: 300px;
+    height: 100px;
+    background-color: #9076D8;
+  }
+    .top {
+      position: absolute;
+      left: 25%;
+    }
+    .bottom {
+      position: absolute;
+      top: 75%;
+    }

@@ -1,0 +1,25 @@
+body {
+  background-color: #DE9473;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+div {
+  width: 99.5px;
+  height: 149.5px;
+  background: #A4281F;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 45%;
+}
+.wrap {
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}
+.right { left: 56%; }
+.left { left: 24%; }

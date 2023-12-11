@@ -1,0 +1,36 @@
+* { margin: 0; }
+  body {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .wrap {
+    width: 400px;
+    height: 400px;
+    background: #FEFAE3;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    position: relative;
+  }
+
+  .rec {
+    width: 280px;
+    height: 170px;
+    background: #D4A469;
+  }
+
+  .sq {
+    width: 60px;
+    height: 60px;
+    background: #B17036;
+    
+    border: 50px solid #FEFAE3;
+    position: absolute;
+  }
+    .sq1 { left: 10px; bottom: 66px; }
+    .sq2 { right: 10px; top: 65px; }

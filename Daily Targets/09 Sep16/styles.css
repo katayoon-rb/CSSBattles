@@ -1,0 +1,31 @@
+body {
+  background-color: #8647E6;
+  margin: 0;
+
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  background: #EFEB99;
+  border-radius: 50%;
+}
+
+.squeres {
+  display: flex;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+  .squere {
+    border: 20px solid #8647E6;
+    width: 60px;
+    height: 60px;
+  }
+    .squere1 { margin-top: 160px; margin-right: -20px; }
+    .squere2 { margin-top: 80px; }
+    .squere3 { margin-left: -20px; }

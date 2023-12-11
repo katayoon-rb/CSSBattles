@@ -1,0 +1,48 @@
+body {
+  background-color: #E6D9AC;
+  margin: 0;
+  
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+div {
+  position: absolute;
+  width: 120.5px;
+  height: 150.5px;
+}
+  .E {
+    z-index: 1;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  .rec {
+    background: #8F2D2B;
+    margin-left: 31px;
+    margin-top: 30px;
+  }
+
+  .hor, .ver {
+    position: fixed;
+  }
+    .hor {
+      background: #BD6C27;
+      width: 30.5px;
+      height: 150.5px;
+    }
+    .ver {
+      height: 150.5px;
+      display: flex;
+      flex-direction: column;
+      
+    }
+      .ver1, .ver2, .ver3 {
+        background: #BD6C27;
+        height: 30.5px;
+      }
+        .ver1 { margin-top: 0; }
+        .ver2 { margin-top: 60px; }
+        .ver3 { margin-top: 120px; }

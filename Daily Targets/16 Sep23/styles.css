@@ -1,0 +1,38 @@
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  margin: 0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap {
+  background: #DA30D4;
+
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+  .loop {
+    width: 120px;
+    height: 250px;
+    background: transparent;
+
+    border: 40px solid #0C0C49;
+    border-radius: 100px;
+
+    position: absolute;
+  }
+
+    .top { top: -130px; }
+    .bottom { top: 100px; }

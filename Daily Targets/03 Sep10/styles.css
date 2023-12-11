@@ -1,0 +1,38 @@
+body {
+  background-color: #FEFAE3;
+  margin: 0;
+  
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+div { position: absolute; }
+  .left, .right {
+    background: #B17036;
+    width: 40px;
+    height: 160px;
+  }
+    .right {
+      margin-left: 160px;
+      margin-bottom: 40px;
+    }
+    .left {
+      margin-right: 160px;
+      margin-top: 40px;
+    }
+.top, .bottom {
+    background: #D4A469;
+    width: 160px;
+    height: 40px;
+  }
+    .top {
+      margin-right: 40px;
+      margin-bottom: 160px;
+    }
+    .bottom {
+      margin-left: 40px;
+      margin-top: 160px;
+    }

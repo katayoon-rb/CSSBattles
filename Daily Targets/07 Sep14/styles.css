@@ -1,0 +1,29 @@
+body {
+  background: #5E2948;
+  margin: 0;
+}
+.rec {
+  transform: translate(-50%, -50%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  
+  width: 220px;
+  height: 160px;
+  background: #E7A366; 
+  z-index: -1;
+}
+.line {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+width: 385px; 
+  height: 100px;  
+  border: solid 19px #000;
+  border-color: #5E2948 transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
+}
+  .line1 { margin-top: 39px; }
+  .line2 { margin-top: 79px; }

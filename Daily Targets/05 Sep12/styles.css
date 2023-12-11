@@ -1,0 +1,37 @@
+body {
+  background-color: #FEFAE0;
+  margin: 0;
+  
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+.full {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  background: #9CCCDB;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.lines {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-140px, -88%);
+  
+  background-color: transparent;
+  width: 120px;
+  height: 120px;
+
+  border: 20px solid;
+  border-color: #FEFAE0;
+  border-radius: 200px 0 0 0;
+}

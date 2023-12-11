@@ -1,0 +1,25 @@
+body { background: #DA30D4 }
+  .circles, .squere {
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+    .circles {
+      z-index: -1;
+      display: flex;
+    }
+      .each {
+        width: 100px;
+        height: 100px;
+        background: #0C0C49;
+        
+        margin: 20px 10px;
+        border-radius: 50%;
+      }
+  
+    .squere {
+        width: 120px;
+        height: 120px;
+        background: #DA30D4;
+    }
