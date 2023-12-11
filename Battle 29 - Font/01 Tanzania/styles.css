@@ -49,3 +49,15 @@ body {
     height: 100px;
     background: #000;
   }
+
+
+.cover {
+  width: 400px;
+  height: 300px;
+  border: 150px solid #fff;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
