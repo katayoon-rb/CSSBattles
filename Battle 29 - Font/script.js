@@ -4,7 +4,10 @@ let list = [
     "02 Kuwait",
     "03 Iceland",
     "04 Bahrain",
-    "05 Brazil"
+    "05 Brazil",
+    "06 India",
+    "07 South Korea",
+    "08 Guernsey"
 ]
 
 
