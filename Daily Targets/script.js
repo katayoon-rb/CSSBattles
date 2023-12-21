@@ -29,4 +29,4 @@ function makeMonth(month, start, end) {
 makeMonth('Sep', 8, 31)
 makeMonth('Oct', 1, 32) 
 makeMonth('Nov', 1, 31)
-makeMonth('Dec', 1, 21)   // CHANGE //
+makeMonth('Dec', 1, 22)   // CHANGE //
