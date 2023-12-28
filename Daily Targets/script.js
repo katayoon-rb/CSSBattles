@@ -1,9 +1,4 @@
-// const sepContainer = document.getElementById('sepContainer')
-// const octContainer = document.getElementById('octContainer')
-// const novContainer = document.getElementById('novContainer')
-// const decContainer = document.getElementById('decContainer')
 let day = 1
-
 
 function makeMonth(container, month, start, end) {
     for (let i = start; i < end; i++) {
@@ -26,17 +21,17 @@ function makeMonth(container, month, start, end) {
             day++
         }
     }
-    // if (month == 'Sep') { sepContainer.innerHTML = output }
-    // else if (month == 'Oct') { octContainer.innerHTML = output }
-    // else if (month == 'Nov') { novContainer.innerHTML = output }
-    // else if (month == 'Dec') { decContainer.innerHTML = output }
 }
 
 if ( document.getElementById('sepContainer') ) {
-    const sepContainer = document.getElementById('sepContainer')
-    makeMonth(sepContainer, 'Sep', 8, 31)
+    makeMonth( document.getElementById('sepContainer'), 'Sep', 8, 31 )
 }
-
-// makeMonth('Oct', 1, 32) 
-// makeMonth('Nov', 1, 31)
-// makeMonth('Dec', 1, 29)   // CHANGE //
+else if ( document.getElementById('octContainer') ) {
+    makeMonth( document.getElementById('octContainer'), 'Oct', 1, 32 )
+}
+else if ( document.getElementById('novContainer') ) {
+    makeMonth( document.getElementById('novContainer'), 'Nov', 1, 31 )
+}
+else if ( document.getElementById('decContainer') ) {
+    makeMonth( document.getElementById('decContainer'), 'Dec', 1, 29 )  // CHANGE //
+}
