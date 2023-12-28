@@ -1,15 +1,16 @@
-const container = document.getElementById('container')
+const SepContainer = document.getElementById('sepContainer')
 let day = 1
 
 
 function makeMonth(month, start, end) {
+    let output = ``
     for (let i = start; i < end; i++) {
         day = day < 10? `0${day}`: day
         const date = `${month}${i < 10? `0${i}`: i}`
 
         if (date == 'Nov05') { continue }
         else {
-            container.innerHTML += `
+            output += `
                 <div class="project">
                     <div class="line">
                         <h2>${date}</h2>
@@ -23,6 +24,7 @@ function makeMonth(month, start, end) {
             day++
         }
     }
+    if (month == 'Sep') { SepContainer.innerHTML = output }
 }
 
 
