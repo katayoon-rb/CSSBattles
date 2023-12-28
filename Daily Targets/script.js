@@ -1,4 +1,7 @@
-const SepContainer = document.getElementById('sepContainer')
+const sepContainer = document.getElementById('sepContainer')
+const octContainer = document.getElementById('octContainer')
+const novContainer = document.getElementById('novContainer')
+const decContainer = document.getElementById('decContainer')
 let day = 1
 
 
@@ -24,7 +27,10 @@ function makeMonth(month, start, end) {
             day++
         }
     }
-    if (month == 'Sep') { SepContainer.innerHTML = output }
+    if (month == 'Sep') { sepContainer.innerHTML = output }
+    else if (month == 'Oct') { octContainer.innerHTML = output }
+    else if (month == 'Nov') { novContainer.innerHTML = output }
+    else if (month == 'Dec') { decContainer.innerHTML = output }
 }
 
 
