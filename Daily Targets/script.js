@@ -5,7 +5,7 @@
 let day = 1
 
 
-function makeMonth(month, start, end) {
+function makeMonth(container, month, start, end) {
     for (let i = start; i < end; i++) {
         day = day < 10? `0${day}`: day
         const date = `${month}${i < 10? `0${i}`: i}`
@@ -33,8 +33,8 @@ function makeMonth(month, start, end) {
 }
 
 if ( document.getElementById('sepContainer') ) {
-    const container = document.getElementById('sepContainer')
-    makeMonth('Sep', 8, 31)
+    const sepContainer = document.getElementById('sepContainer')
+    makeMonth(sepContainer, 'Sep', 8, 31)
 }
 
 // makeMonth('Oct', 1, 32) 
