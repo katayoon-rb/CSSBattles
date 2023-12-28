@@ -1,6 +1,4 @@
-let day = 1
-
-function makeMonth(container, month, start, end) {
+function makeMonth( container, day, month, start, end ) {
     for (let i = start; i < end; i++) {
         day = day < 10? `0${day}`: day
         const date = `${month}${i < 10? `0${i}`: i}`
@@ -24,14 +22,14 @@ function makeMonth(container, month, start, end) {
 }
 
 if ( document.getElementById('sepContainer') ) {
-    makeMonth( document.getElementById('sepContainer'), 'Sep', 8, 31 )
+    makeMonth( document.getElementById('sepContainer'), 1, 'Sep', 8, 31 )
 }
 else if ( document.getElementById('octContainer') ) {
-    makeMonth( document.getElementById('octContainer'), 'Oct', 1, 32 )
+    makeMonth( document.getElementById('octContainer'), 24, 'Oct', 1, 32 )
 }
 else if ( document.getElementById('novContainer') ) {
-    makeMonth( document.getElementById('novContainer'), 'Nov', 1, 31 )
+    makeMonth( document.getElementById('novContainer'), 55, 'Nov', 1, 31 )
 }
 else if ( document.getElementById('decContainer') ) {
-    makeMonth( document.getElementById('decContainer'), 'Dec', 1, 29 )  // CHANGE //
+    makeMonth( document.getElementById('decContainer'), 84, 'Dec', 1, 29 )  // CHANGE //
 }
