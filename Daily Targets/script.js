@@ -1,11 +1,6 @@
-const sepContainer = document.getElementById('sepContainer')
-const octContainer = document.getElementById('octContainer')
-const novContainer = document.getElementById('novContainer')
-const decContainer = document.getElementById('decContainer')
 let day = 1
 
-
-function makeMonth(month, start, end) {
+function makeMonth( month, start, end ) {
     let output = ``
     for (let i = start; i < end; i++) {
         day = day < 10? `0${day}`: day
@@ -27,10 +22,18 @@ function makeMonth(month, start, end) {
             day++
         }
     }
-    if (month == 'Sep') { sepContainer.innerHTML = output }
-    else if (month == 'Oct') { octContainer.innerHTML = output }
-    else if (month == 'Nov') { novContainer.innerHTML = output }
-    else if (month == 'Dec') { decContainer.innerHTML = output }
+    if (month == 'Sep') {
+        document.getElementById('sepContainer').innerHTML = output
+    }
+    else if (month == 'Oct') {
+         document.getElementById('octContainer').innerHTML = output
+    }
+    else if (month == 'Nov') {
+         document.getElementById('novContainer').innerHTML = output
+    }
+    else if (month == 'Dec') {
+         document.getElementById('decContainer').innerHTML = output
+    }
 }
 
 
