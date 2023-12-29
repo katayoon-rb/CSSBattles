@@ -31,5 +31,5 @@ else if ( document.getElementById('novContainer') ) {
     makeMonth( document.getElementById('novContainer'), 55, 'Nov', 1, 31 )
 }
 else if ( document.getElementById('decContainer') ) {
-    makeMonth( document.getElementById('decContainer'), 84, 'Dec', 1, 29 )  // CHANGE //
+    makeMonth( document.getElementById('decContainer'), 84, 'Dec', 1, 31 )
 }
