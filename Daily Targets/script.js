@@ -33,3 +33,6 @@ else if ( document.getElementById('novContainer') ) {
 else if ( document.getElementById('decContainer') ) {
     makeMonth( document.getElementById('decContainer'), 84, 'Dec', 1, 32 )
 }
+else if ( document.getElementById('janContainer') ) {
+    makeMonth( document.getElementById('janContainer'), 115, 'Dec', 1, 2 )
+}
