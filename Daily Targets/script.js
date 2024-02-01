@@ -36,3 +36,7 @@ else if ( document.getElementById('dec2023Container') ) {
 else if ( document.getElementById('jan2024Container') ) {
     makeMonth( document.getElementById('jan2024Container'), 115, 'Jan' )
 }
+else if ( document.getElementById('feb2024Container') ) {
+    makeMonth( document.getElementById('feb2024Container'), 115, 'Feb', 2 )
+}
+
