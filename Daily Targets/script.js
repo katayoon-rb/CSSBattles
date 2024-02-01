@@ -1,4 +1,4 @@
-function makeMonth( container, day, month, start, end ) {
+function makeMonth( container, day, month, end = 32, start = 1 ) {
     for (let i = start; i < end; i++) {
         day = day < 10? `0${day}`: day
         const date = `${month}${i < 10? `0${i}`: i}`
@@ -21,18 +21,18 @@ function makeMonth( container, day, month, start, end ) {
     }
 }
 
-if ( document.getElementById('sepContainer') ) {
-    makeMonth( document.getElementById('sepContainer'), 1, 'Sep', 8, 31 )
+if ( document.getElementById('sep2023Container') ) {
+    makeMonth( document.getElementById('sep2023Container'), 1, 'Sep', 31, 8 )
 }
-else if ( document.getElementById('octContainer') ) {
-    makeMonth( document.getElementById('octContainer'), 24, 'Oct', 1, 32 )
+else if ( document.getElementById('oct2023Container') ) {
+    makeMonth( document.getElementById('oct2023Container'), 24, 'Oct' )
 }
-else if ( document.getElementById('novContainer') ) {
-    makeMonth( document.getElementById('novContainer'), 55, 'Nov', 1, 31 )
+else if ( document.getElementById('nov2023Container') ) {
+    makeMonth( document.getElementById('nov2023Container'), 55, 'Nov' )
 }
-else if ( document.getElementById('decContainer') ) {
-    makeMonth( document.getElementById('decContainer'), 84, 'Dec', 1, 32 )
+else if ( document.getElementById('dec2023Container') ) {
+    makeMonth( document.getElementById('dec2023Container'), 84, 'Dec' )
 }
-else if ( document.getElementById('janContainer') ) {
-    makeMonth( document.getElementById('janContainer'), 115, 'Jan', 1, 32 )
+else if ( document.getElementById('jan2024Container') ) {
+    makeMonth( document.getElementById('jan2024Container'), 115, 'Jan' )
 }
