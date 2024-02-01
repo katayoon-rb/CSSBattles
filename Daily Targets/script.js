@@ -37,6 +37,7 @@ else if ( document.getElementById('jan2024Container') ) {
     makeMonth( document.getElementById('jan2024Container'), 115, 'Jan' )
 }
 else if ( document.getElementById('feb2024Container') ) {
-    makeMonth( document.getElementById('feb2024Container'), 115, 'Feb', 2 )
+    let today = parseInt(Date().split(' ')[2]) + 1
+    makeMonth( document.getElementById('feb2024Container'), 146, 'Feb', today )
 }
 
