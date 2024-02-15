@@ -36,14 +36,16 @@ body {
 
 .vers {
   display: flex;
-  gap: 15px;
+  flex-gap: 15px;
 }
-  .vers div {
-    width: 30px;
-    background: #EEECF6;
-    border-radius: 15px;
-    margin-top: -30px;
-  }
-    .ver1 { height: 120px; }
-    .ver2 { height: 150px; }
-    .ver3 { height: 180px; }
+
+.vers div {
+  width: 30px;
+  background: #EEECF6;
+  border-radius: 15px;
+  margin-top: -30px;
+}
+
+.ver1 { height: 120px; }
+.ver2 { height: 150px; }
+.ver3 { height: 180px; }
