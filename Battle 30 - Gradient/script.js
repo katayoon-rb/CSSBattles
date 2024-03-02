@@ -5,7 +5,9 @@ let list = [
     "03 Triangle Hook",
     "04 Power Chip",
     "05 Modern Fence",
-    "06 Abstract Firefly"
+    "06 Abstract Firefly",
+    "07 Galver",
+    "08 Fountain"
 ]
 
 
