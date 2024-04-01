@@ -40,7 +40,9 @@ else if ( document.getElementById('feb2024Container') ) {
     makeMonth( document.getElementById('feb2024Container'), 146, 'Feb', 30 )
 }
 else if ( document.getElementById('mar2024Container') ) {
-    let today = parseInt(Date().split(' ')[2]) + 1
-    makeMonth( document.getElementById('mar2024Container'), 175, 'Mar', today )
+    makeMonth( document.getElementById('mar2024Container'), 175, 'Mar' )
 }
-
+else if ( document.getElementById('apr2024Container') ) {
+    let today = parseInt(Date().split(' ')[2]) + 1
+    makeMonth( document.getElementById('apr2024Container'), 206, 'Apr', today )
+}
