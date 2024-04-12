@@ -11,44 +11,50 @@ body {
 .wrap {
   width: 400px;
   height: 400px;
-  background: #dbba30;
+  background: #ea7457;
 
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
 }
 
-.recs,
-.recs::before,
-.recs::after {
-  height: 60px;
+.recs {
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+  align-items: center;
+}
+.recs .left,
+.recs .right {
+  height: 90px;
   width: 200px;
-  background: #a95415;
+  background: #b53733;
+  border: 15px solid #ea7457;
+  outline: 30px solid #b53733;
 }
-.recs::before,
-.recs::after {
-  content: "";
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 50%;
-}
-.recs::before {
-  top: 32%;
-}
-.recs::after {
-  top: 67%;
+.recs .center {
+  height: 180px;
+  width: 30px;
+  background: #b53733;
 }
 
-.triangle {
+.covers .left,
+.covers .right {
+  /* transform: translate(-50%, -50%); */
   position: absolute;
-  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
 
-  width: 0;
-  height: 0;
-  border: 100px solid transparent;
-  border-bottom: 100px solid #dbba30;
+  height: 150px;
+  width: 95px;
+  background: #ea7457;
+}
+.covers .left {
+  top: 38%;
+  left: 0;
+}
+.covers .right {
+  top: 25%;
+  left: calc(100% - 95px);
 }
