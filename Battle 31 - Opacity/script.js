@@ -2,7 +2,9 @@ const container = document.getElementById("container");
 let list = ["01 Look Away", "02 Tree"];
 
 for (let i = 0; i < list.length; i++) {
-  let name = list[i].split(" ")[1] + " " + list[i].split(" ")[2];
+  let name =
+    list[i].split(" ")[1] +
+    (list[i].split(" ")[2] ? ` ${list[i].split(" ")[2]}` : "");
   container.innerHTML += `
         <div class="project">
             <div class="line">
