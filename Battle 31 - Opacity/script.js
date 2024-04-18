@@ -1,5 +1,10 @@
 const container = document.getElementById("container");
-let list = ["01 Look Away", "02 Tree"];
+let list = [
+  "01 Look Away",
+  "02 Tree",
+  "03 Crystal",
+  "04 Walls"
+];
 
 for (let i = 0; i < list.length; i++) {
   let name =
