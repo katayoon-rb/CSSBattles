@@ -3,7 +3,9 @@ let list = [
   "01 Look Away",
   "02 Tree",
   "03 Crystal",
-  "04 Walls"
+  "04 Walls",
+  "05 Antenna",
+  "06 Lantern"
 ];
 
 for (let i = 0; i < list.length; i++) {
