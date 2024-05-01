@@ -5,7 +5,9 @@ let list = [
   "03 Crystal",
   "04 Walls",
   "05 Antenna",
-  "06 Lantern"
+  "06 Lantern",
+  "07 Triple Zero",
+  "08 Steering Wheel"
 ];
 
 for (let i = 0; i < list.length; i++) {
