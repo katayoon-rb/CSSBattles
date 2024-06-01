@@ -28,7 +28,7 @@ else if ( document.getElementById('oct2023Container') ) {
     makeMonth( document.getElementById('oct2023Container'), 24, 'Oct' )
 }
 else if ( document.getElementById('nov2023Container') ) {
-    makeMonth( document.getElementById('nov2023Container'), 55, 'Nov' )
+    makeMonth( document.getElementById('nov2023Container'), 55, 'Nov', 31 )
 }
 else if ( document.getElementById('dec2023Container') ) {
     makeMonth( document.getElementById('dec2023Container'), 84, 'Dec' )
@@ -43,10 +43,10 @@ else if ( document.getElementById('mar2024Container') ) {
     makeMonth( document.getElementById('mar2024Container'), 175, 'Mar' )
 }
 else if ( document.getElementById('apr2024Container') ) {
-    makeMonth( document.getElementById('apr2024Container'), 206, 'Apr' )
+    makeMonth( document.getElementById('apr2024Container'), 206, 'Apr', 31 )
 }
 else if ( document.getElementById('may2024Container') ) {
-    makeMonth( document.getElementById('apr2024Container'), 236, 'May' )
+    makeMonth( document.getElementById('may2024Container'), 236, 'May' )
 }
 else if ( document.getElementById('june2024Container') ) {
     let today = parseInt(Date().split(' ')[2]) + 1
