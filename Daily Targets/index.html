@@ -3,93 +3,31 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
         <link rel="stylesheet" href="style.css">
         <title>CSS Battle</title>
+
+        <script>
+            const months = ['september 2023', 'october 2023', 'november 2023', 'december 2023',
+                            'january 2024', 'february 2024', 'march 2024', 'april 2024',
+                            'may 2024', 'june 2024', 'july 2024']
+            const container = document.getElementById('container')
+            
+            for (let month in months) {
+                container.innerHTML += `
+                    <div class="project">
+                        <div class="line">
+                            <h2>${month.split(" ")[0]}</h2>
+                            <a href="${month}.html">
+                                <button type="button">View Projects</button>
+                            </a>
+                        </div>
+                    </div>
+                `
+            }
+        </script>
     </head>
     <body>
         <h1 class="title">CSS Battle</h1>
-        <div class="container">
-            <div class="project">
-                <div class="line">
-                    <h2>September</h2>
-                    <a href="september 2023.html">
-                        <button type="button">View Projects</button>
-                    </a>
-                </div>
-            </div>
-            <div class="project">
-                <div class="line">
-                    <h2>October</h2>
-                    <a href="october 2023.html">
-                        <button type="button">View Projects</button>
-                    </a>
-                </div>
-            </div>
-            <div class="project">
-                <div class="line">
-                    <h2>November</h2>
-                    <a href="november 2023.html">
-                        <button type="button">View Projects</button>
-                    </a>
-                </div>
-            </div>
-            <div class="project">
-                <div class="line">
-                    <h2>December</h2>
-                    <a href="december 2023.html">
-                        <button type="button">View Projects</button>
-                    </a>
-                </div>
-            </div>
-            <div class="project">
-                <div class="line">
-                    <h2>January</h2>
-                    <a href="january 2024.html">
-                        <button type="button">View Projects</button>
-                    </a>
-                </div>
-            </div>
-            <div class="project">
-                <div class="line">
-                    <h2>February</h2>
-                    <a href="february 2024.html">
-                        <button type="button">View Projects</button>
-                    </a>
-                </div>
-            </div>
-            <div class="project">
-                <div class="line">
-                    <h2>March</h2>
-                    <a href="march 2024.html">
-                        <button type="button">View Projects</button>
-                    </a>
-                </div>
-            </div>
-            <div class="project">
-                <div class="line">
-                    <h2>April</h2>
-                    <a href="april 2024.html">
-                        <button type="button">View Projects</button>
-                    </a>
-                </div>
-            </div>
-            <div class="project">
-                <div class="line">
-                    <h2>May</h2>
-                    <a href="may 2024.html">
-                        <button type="button">View Projects</button>
-                    </a>
-                </div>
-            </div>
-            <div class="project">
-                <div class="line">
-                    <h2>June</h2>
-                    <a href="june 2024.html">
-                        <button type="button">View Projects</button>
-                    </a>
-                </div>
-            </div>
-        </div>
+        <div id="container" class="container"></div>
     </body>
 </html>
