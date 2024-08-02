@@ -58,3 +58,8 @@ else if ( document.getElementById('august2024Container') ) {
     let today = parseInt(Date().split(' ')[2]) + 1
     makeMonth( document.getElementById('august2024Container'), 328, 'Aug', today )
 }
+
+// End Day:
+// if 31 days => no entry for end
+// if 30 days => 31
+// if 29 days => 30
