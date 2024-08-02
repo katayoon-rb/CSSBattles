@@ -52,7 +52,7 @@ else if ( document.getElementById('june2024Container') ) {
     makeMonth( document.getElementById('june2024Container'), 267, 'Jun', 31 )
 }
 else if ( document.getElementById('july2024Container') ) {
-    makeMonth( document.getElementById('july2024Container'), 297, 'Jul', 30 )
+    makeMonth( document.getElementById('july2024Container'), 297, 'Jul' )
 }
 else if ( document.getElementById('august2024Container') ) {
     let today = parseInt(Date().split(' ')[2]) + 1
