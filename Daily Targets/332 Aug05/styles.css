@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #49C85B;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.eyes {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 68px;
+}
+.eyes div {
+  width: 80px;
+  height: 40px;
+  background: #30230A;
+  border-radius: 150px 150px 0 0;
+}
+
+.teeth {
+  transform: translate(-50%);
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  
+  display: flex;
+  gap: 40px;
+}
+.teeth div {
+  width: 60px;
+  height: 86.5px;
+  background: #FFFFFF;
+}
