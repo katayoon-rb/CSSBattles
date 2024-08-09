@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #3166AE;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.pin {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  margin: 25px 0 2px;;
+  border-radius: 50% 50% 50% 0;
+  rotate: -45deg;
+}  
+  
+.oval {
+  width: 135px;
+  height: 36px;
+  background: #9AC5FF;
+  border-radius: 50%;
+}
