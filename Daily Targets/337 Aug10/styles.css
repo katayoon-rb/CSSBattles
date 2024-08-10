@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #EADCDC;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.e {
+  width: 60px;
+  height: 80px;
+  border: solid #3166AE;
+  border-width: 30px 40px;
+  border-radius: 100px;
+} 
+  
+.e::before,
+.e::after {
+  content: '';
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  
+}
+.e::before {
+  top: 52.5%;
+  left: 60%;
+  background: #EADCDC;
+}
+.e::after {
+  top: 49%;
+  left: 55%;
+  background: #3166AE;
+  border-top-right-radius: 18px;
+}
