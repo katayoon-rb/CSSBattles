@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+}
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #151109;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+  
+.circle {
+  width: 200px;
+  height: 200px;
+  background: #B53733;
+  border-radius: 50%;
+}
+
+.sun {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 35%;
+  left: 60.5%;
+  
+  width: 20px;
+  height: 20px;
+  background: #151109;
+  border-radius: 50%;
+}
+
+.mountains div {
+  transform: translate(-50%, -50%) rotate(45deg);
+  position: absolute;
+  
+  width: 120px;
+  height: 120px;
+  background: #151109;
+}
+.mountains .left {
+  top: 66%;
+  left: 42.25%;
+}
+.mountains .right {
+  top: 73.25%;
+  left: 60.75%;
+}
