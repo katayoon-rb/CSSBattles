@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #EADCDC;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ears div,
+.face,
+.eyes div,
+.eyes div::after,
+.mouth {
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.ears div {
+  width: 60px;
+  height: 60px;
+  background: #151109;
+  border-radius: 50%;
+}
+.ears .left {
+  top: 32.1%;
+  left: 30.5%;
+}
+.ears .right {
+  top: 34.3%;
+  left: 67.35%;
+}
+
+.face {
+  top: 50%;
+  left: 50%;
+  width: 190px;
+  height: 190px;
+  background: #EADCDC;
+  border-radius: 50%;
+}
+
+.eyes div {
+  top: 47.3%;
+  width: 60px;
+  height: 60px;
+  background: #151109;
+}
+.eyes .left {
+  left: 39.1%;
+  border-radius: 40px 24px 32px 25px;
+}
+.eyes .right {
+  left: 60.3%;
+  border-radius: 25px 40px 24px 32px;
+}
+
+.eyes div::after {
+  content: '';
+  width: 16px;
+  height: 16px;
+  background: #EADCDC;
+  border-radius: 50%;
+}
+.eyes .left::after {
+  top: 68%;
+  left: 74%;
+}
+.eyes .right::after {
+  top: 69%;
+  left: 78%;
+}
+
+.mouth {
+  top: 60.5%;
+  left: 50%;
+  width: 40px;
+  height: 20px;
+  background: #151109;
+  border-radius: 15px 15px 80px 80px;
+}
