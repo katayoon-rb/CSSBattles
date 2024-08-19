@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #F2EAA8;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hor {
+  width: 200px;
+  height: 40px;
+  background: #98CEA1;
+}
+.ver {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  width: 40px;
+  height: 200px;
+  background: #98CEA1;
+}
+
+.X {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 66%;
+  left: 39%;
+  rotate: 45deg;
+}
