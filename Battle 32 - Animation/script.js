@@ -1,7 +1,9 @@
 const container = document.getElementById("container");
 let list = [
   "01 Wolverine",
-  "02 Deadpool"
+  "02 Deadpool",
+  "03 Magnetos helmet",
+  "04 Punisher"
 ];
 
 for (let i = 0; i < list.length; i++) {
