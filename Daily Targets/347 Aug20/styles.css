@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #7E6293;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.top {
+  width: 210px;
+  height: 210px;
+  background-image: linear-gradient(#E8BA79 50%, #7E6293 50%);
+  border-radius: 50%;
+}
+
+.bottom {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  width: 120px;
+  height: 120px;
+  background-image: linear-gradient(#7E6293 50%, #DE817E 50%);
+  border-radius: 50%;
+}
