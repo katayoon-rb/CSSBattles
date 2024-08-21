@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #8BADDB;
+  gap: 13px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hair {
+  display: flex;
+}
+.hair div {
+  width: 60px;
+  height: 120px;
+  background: #000;
+  margin-top: -47px;
+}
+.hair .L {
+  border-radius: 100px 0;
+}
+.hair .R {
+  border-radius: 0 100px;
+}
+  
+.eyes {
+  display: flex;
+  gap: 40px;
+}
+.eyes div {
+  width: 20px;
+  height: 20px;
+  background: #000;
+  border-radius: 50%;
+}
