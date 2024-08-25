@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #E3DCD1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+  
+.shape {
+  width: 172px;
+  height: 100px;
+  border: 30px solid #D95F5B;
+  border-radius: 100px;
+  margin-top: -8px;
+}
+
+.shape::after {
+  content: '';
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 115px;
+  height: 180px;
+  background: #E3DCD1;
+}
