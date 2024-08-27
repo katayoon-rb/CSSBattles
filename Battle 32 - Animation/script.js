@@ -3,7 +3,9 @@ let list = [
   "01 Wolverine",
   "02 Deadpool",
   "03 Magnetos helmet",
-  "04 Punisher"
+  "04 Punisher",
+  "05 Green Lantern logo",
+  "06 Hulk fist"
 ];
 
 for (let i = 0; i < list.length; i++) {
