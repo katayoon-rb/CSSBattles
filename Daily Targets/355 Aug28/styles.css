@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+body {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.wrap {
+  width: 400px;
+  height: 400px;
+  background: #EED9D9;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.left, .right {
+  display: flex;
+  flex-direction: column;
+}
+.left { align-items: flex-end; }
+.right { align-items: flex-start; }
+  
+.left div { background: #EB5868; }
+.right div { background: #942F3A; }
+
+.line {
+  width: 30px;
+  height: 100px;
+  margin: -36px 0 -83px;
+}
+  
+.point { width: 60px; height: 45px; }
+.left .point { transform: skewY(-45deg); }
+.right .point { transform: skewY(45deg); }
